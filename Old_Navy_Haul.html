@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Old Navy Picks</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #f4f4f4;
+    }
+    h1, p { text-align: center; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .item-card {
+      background: white;
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform .15s, box-shadow .15s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .item-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    .item-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+    .item-title {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .item-link {
+      margin-top: auto;
+      text-align: center;
+    }
+    .item-link a {
+      background: #003366;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Old Navy Cart Picks 👕🛒</h1>
+  <p>Scroll and click an item to view on Old Navy</p>
+
+  <div class="grid">
+
+    <div class="item-card">
+      <img src="IMAGE_1_URL" alt="Waffle T Blue">
+      <div class="item-title">Waffle T (Blue)</div>
+      <div class="item-link"><a href="https://oldnavy.gap.com/browse/product.do?pid=8016970920004" target="_blank">View on Old Navy</a></div>
+    </div>
+
+    <div class="item-card">
+      <img src="IMAGE_2_URL" alt="Waffle T Green">
+      <div class="item-title">Waffle T (Green)</div>
+      <div class="item-link"><a href="https://oldnavy.gap.com/browse/product.do?pid=8016970020004" target="_blank">View on Old Navy</a></div>
+    </div>
+
+    <div class="item-card">
+      <img src="IMAGE_3_URL" alt="Camo Crewneck">
+      <div class="item-title">Camo Crew-Neck Sweatshirt</div>
+      <div class="item-link"><a href="https://oldnavy.gap.com/browse/product.do?pid=7889700020004" target="_blank">View on Old Navy</a></div>
+    </div>
+
+    <div class="item-card">
+      <img src="IMAGE_4_URL" alt="Cream Crewneck">
+      <div class="item-title">Cream Crew-Neck Sweatshirt</div>
+      <div class="item-link"><a href="https://oldnavy.gap.com/browse/product.do?pid=4075080220004" target="_blank">View on Old Navy</a></div>
+    </div>
+
+    <div class="item-card">
+      <img src="IMAGE_5_URL" alt="Fleece Sweatshirt">
+      <div class="item-title">Fleece Sweatshirt</div>
+      <div class="item-link"><a href="https://oldnavy.gap.com/browse/product.do?pid=7879350420004" target="_blank">View on Old Navy</a></div>
+    </div>
+
+    <div class="item-card">
+      <img src="IMAGE_6_URL" alt="Camo T-Shirt">
+      <div class="item-title">Camo T-Shirt</div>
+      <div class="item-link"><a href="https://oldnavy.gap.com/browse/product.do?pid=7886370120004" target="_blank">View on Old Navy</a></div>
+    </div>
+
+    <div class="item-card">
+      <img src="IMAGE_7_URL" alt="Cream Hoodie">
+      <div class="item-title">Cream Hoodie</div>
+      <div class="item-link"><a href="https://oldnavy.gap.com/browse/product.do?pid=7104122320004" target="_blank">View on Old Navy</a></div>
+    </div>
+
+  </div>
+</body>
+</html>
